@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="worker" class="ocean.Worker">
+		<property name="workId" value="20200102" />
+		<property name="name" value="ocean" />
+		<property name="telephone" value="13078888888" />
+		<property name="address" value="广州市天河区建工路7号" />
+		<property name="department" value="dev" />
+		<property name="email" value="2435QQ@qq.com" />
+	</bean>
+</beans>
